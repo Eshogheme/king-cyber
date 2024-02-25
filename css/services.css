@@ -1,0 +1,260 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    padding: 5px;
+  }
+  
+  header nav .ul {
+    display: flex;
+  }
+  
+  header nav .ul .li {
+    list-style-type: none;
+    padding: 1.5em;
+  }
+  
+  header nav .ul .li .anchor {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: #222227;
+  }
+  
+#line{
+    padding-bottom: 1em;
+    border-bottom: 2px solid #ff3131;
+    width: 70%;
+}
+  header nav .ul .li .anchor:hover {
+    cursor: pointer;
+    color: #17172c;
+  }
+  header button {
+    width: 20%;
+    background-color: #ff3131;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 10px;
+    padding: 1.2em;
+  }
+  
+  header button:hover {
+    background-color: #f85454;
+  }
+  
+  .hero-img {
+    width: 100%;
+    margin-bottom: 10em;
+  }
+
+  .header-section {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 8em;
+    position: relative;
+  }
+  
+  .about-header {
+    font-size: 3em;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .about-para {
+    font-family: "Roboto", sans-serif;
+    width: 52%;
+    position: relative;
+    left: 24%;
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .grid-main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 10em;
+  }
+
+.grid-main-wrapper{
+   
+    width: 95%;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.grid-main-new-wrapper{
+   
+    margin-bottom: 15em;
+    padding: 10px;
+}
+
+.grid-main-header{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #222227;
+}
+
+.grid-main-para{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #222227BF;
+}
+
+.grid-main-button{
+    width: 50%;
+    padding: 1.2em;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #FF3131;
+    margin-left:8.5em;
+}
+
+.grid-main-button:hover{
+    cursor: pointer;
+    background-color: #810d0d;
+}
+
+.grid-main-image{
+    width: 100%;
+    object-fit:cover;
+}
+
+.footer-section {
+    background-color: #c30015;
+    color: white;
+    padding: 20px;
+    position: relative;
+  
+    margin-bottom: 5em;
+  }
+  
+  .wrapper3 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-headers {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+  }
+  
+  #footer-ul {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .footer-li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    position: relative;
+    left: -15px;
+  }
+  
+  .footer-anchor {
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }
+  
+  .footer-para {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  #download-link {
+    color: #cdf67c;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .icon-wrapper {
+    margin-bottom: 5em;
+  }
+  
+  .icon-anchors {
+    padding: 10px;
+  }
+  
+  #form {
+    margin-top: 2em;
+  }
+  
+  #input {
+    padding: 1.5em;
+    width: 150%;
+    display: flex;
+    border: none;
+    border-radius: 10px;
+  }
+  
+  #subscribe-button {
+    padding: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: #c30015;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    left: 90%;
+    top: -47px;
+  }
+  
+  #subscribe-button:hover {
+    cursor: pointer;
+    background-color: #e62e40;
+  }
+  
+  #footer-section2{
+      background-color: #FF3131;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      color: white;
+      
+  }
+  
+  
+  #section2-para{
+      font-family: "Roboto", sans-serif;
+      font-weight: 400;
+  }
+  #section2-ul{
+      display: flex;
+      
+  }
+  
+  .section2-li{
+      padding: 10px;
+      list-style-type: none;
+  }
+  
+  .section2-anchor{
+      color: white;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+  }

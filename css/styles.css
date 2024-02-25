@@ -63,7 +63,7 @@ header button:hover {
   margin-bottom: 10em;
 }
 
-#header-section {
+.header-section {
   display: block;
   flex-direction: row;
   text-align: center;
@@ -73,12 +73,12 @@ header button:hover {
   position: relative;
 }
 
-#about-header {
+.about-header {
   font-size: 3em;
   font-family: "Roboto", sans-serif;
 }
 
-#about-para {
+.about-para {
   font-family: "Roboto", sans-serif;
   width: 52%;
   position: relative;
